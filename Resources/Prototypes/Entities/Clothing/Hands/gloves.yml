@@ -554,7 +554,7 @@
       params:
         variation: 0.125
     animation: WeaponArcFist
-    mustBeEquippedToUse: true
+    mustBeEquippedToUse: false # starlight
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -575,6 +575,7 @@
     sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi
   - type: MeleeWeapon
     attackRate: 1.5
+    autoAttack: true # starlight
     damage:
       types:
         Blunt: 8
@@ -584,7 +585,7 @@
       params:
         variation: 0.125
     animation: WeaponArcFist
-    mustBeEquippedToUse: true
+    mustBeEquippedToUse:false # starlight
   - type: Tag
     tags:
     - WhitelistChameleon
