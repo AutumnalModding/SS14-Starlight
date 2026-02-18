@@ -55,9 +55,8 @@
   effects:
     - !type:JobRequirementLoadoutEffect
       requirement:
-        !type:DepartmentTimeRequirement
-        department: Command
-        time: 36000 # 10 hours of meowing
+        !type:OverallPlaytimeRequirement
+        time: 360000 # 100 hours
   equipment:
     head: ClothingHeadHatWhiteCatEars
   groupBy: "cat ears"
@@ -68,7 +67,7 @@
     - !type:JobRequirementLoadoutEffect
       requirement:
         !type:OverallPlaytimeRequirement
-        time: 72000 # 20 hours
+        time: 360000 # 100 hours
   equipment:
     head: ClothingHeadHatBunny
   groupBy: "cat ears"
@@ -79,7 +78,7 @@
     - !type:JobRequirementLoadoutEffect
       requirement:
         !type:OverallPlaytimeRequirement
-        time: 72000 # 20 hours
+        time: 360000 # 100 hours
   equipment:
     head: ClothingHeadHatDogEars
   groupBy: "cat ears"

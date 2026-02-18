@@ -57,6 +57,7 @@
   loadouts:
   - MaidHeadbandTactical
   - Hairflower
+  - LilyFlower
   - CatEars
   - DogEars
   - BunnyEars
@@ -208,7 +209,8 @@
   - GreytideBizarreAdventures
   - BrimHat
   - FeatheredHat
-  - Hairflower # starlight
+  - Hairflower
+  - LilyFlower # starlight
 
 - type: loadoutGroup
   id: AssistantBackpack
@@ -329,6 +331,7 @@
   loadouts:
   - MagistrateHeadPwig
   - Hairflower
+  - LilyFlower
 
 - type: loadoutGroup
   id: MagistrateEyewear
@@ -660,6 +663,7 @@
     - ChemistFisherCap
     - MaidHeadbandTactical
     - Hairflower
+    - LilyFlower
     - CatEars
     - DogEars
     - BunnyEars
@@ -771,6 +775,7 @@
   - DutyOfficerHelmetRiot
   - MaidHeadbandTactical
   - Hairflower
+  - LilyFlower
   - CatEars
   - DogEars
   - BunnyEars
@@ -790,8 +795,8 @@
   id: DutyOfficerBelt
   name: loadout-group-dutyofficer-belt
   loadouts:
-    - DutyOfficerBelt
-    - DutyOfficerWebbing
+  - DutyOfficerBelt
+  - DutyOfficerWebbing
 
 - type: loadoutGroup
   id: DutyOfficerOuterClothing
@@ -866,6 +871,7 @@
   - BeretNCTGreen
   - BeretNCTBlack
   - Hairflower
+  - LilyFlower
 
 - type: loadoutGroup
   id: NanotrasenCareerTrainerShoes
